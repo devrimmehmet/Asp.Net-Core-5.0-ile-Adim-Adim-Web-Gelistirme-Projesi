@@ -9,7 +9,7 @@ namespace EntityLayer.Concrete
     public class Contact
     {
         [Key]
-        public int ContactId { get; set; } 
+        public int ContactID { get; set; } 
 
         public string Title { get; set; }
 

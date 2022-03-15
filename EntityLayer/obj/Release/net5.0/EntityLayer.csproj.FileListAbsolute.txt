@@ -1,0 +1,15 @@
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\bin\Release\net5.0\EntityLayer.deps.json
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\bin\Release\net5.0\EntityLayer.runtimeconfig.json
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\bin\Release\net5.0\EntityLayer.runtimeconfig.dev.json
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\bin\Release\net5.0\EntityLayer.dll
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\bin\Release\net5.0\EntityLayer.pdb
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.dll
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\refint\EntityLayer.dll
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.pdb
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\EntityLayer.genruntimeconfig.cache
+C:\Users\devrimmehmet\source\repos\Core_Proje\EntityLayer\obj\Release\net5.0\ref\EntityLayer.dll
