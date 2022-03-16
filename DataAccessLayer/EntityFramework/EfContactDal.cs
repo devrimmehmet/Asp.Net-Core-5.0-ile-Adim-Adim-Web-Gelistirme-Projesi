@@ -8,7 +8,7 @@ using DataAccessLayer.Repository;
 using EntityLayer.Concrete;
 namespace DataAccessLayer.EntityFramework
 {
-    internal class EfContactDal : GenericRepository<Contact>, IContactDal
+    public class EfContactDal : GenericRepository<Contact>, IContactDal
     {
     }
 }

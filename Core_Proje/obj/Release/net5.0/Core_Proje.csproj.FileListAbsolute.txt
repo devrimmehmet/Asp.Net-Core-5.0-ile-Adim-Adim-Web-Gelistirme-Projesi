@@ -150,3 +150,6 @@ C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\bin\Release\net5.0\Busi
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\bin\Release\net5.0\DataAccessLayer.pdb
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\bin\Release\net5.0\EntityLayer.pdb
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\Razor\Views\Default\HeaderPartial.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\Razor\Views\Default\NavbarPartial.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\Razor\Views\Shared\Components\FeatureList\Default.cshtml.g.cs

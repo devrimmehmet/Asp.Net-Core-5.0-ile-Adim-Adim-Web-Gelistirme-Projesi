@@ -9,7 +9,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccessLayer.EntityFramework
 {
-    internal class EfServiceDal : GenericRepository<Service>, IServiceDal
+    public class EfServiceDal : GenericRepository<Service>, IServiceDal
     {
     }
 }

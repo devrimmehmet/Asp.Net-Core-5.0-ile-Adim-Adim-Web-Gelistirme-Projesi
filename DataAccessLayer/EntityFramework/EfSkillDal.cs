@@ -8,7 +8,7 @@ using DataAccessLayer.Repository;
 using EntityLayer.Concrete;
 namespace DataAccessLayer.EntityFramework
 {
-    internal class EfSkillDal:GenericRepository<Skill>,ISkillDal
+    public class EfSkillDal:GenericRepository<Skill>,ISkillDal
     {
     }
 }

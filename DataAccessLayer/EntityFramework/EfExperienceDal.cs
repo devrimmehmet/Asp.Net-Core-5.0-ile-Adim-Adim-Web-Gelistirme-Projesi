@@ -8,7 +8,7 @@ using DataAccessLayer.Repository;
 using EntityLayer.Concrete;
 namespace DataAccessLayer.EntityFramework
 {
-    internal class EfExperienceDal:GenericRepository<Experience>, IExperienceDal
+    public class EfExperienceDal:GenericRepository<Experience>, IExperienceDal
     {
     }
 }

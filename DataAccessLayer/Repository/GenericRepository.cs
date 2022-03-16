@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repository
 {
-    class GenericRepository<T> : IGenericDal<T> where T : class
+   public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         public void Delete(T t)
         {

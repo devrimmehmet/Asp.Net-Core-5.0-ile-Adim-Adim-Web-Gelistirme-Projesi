@@ -150,3 +150,6 @@ C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\bin\Debug\net5.0\runtim
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Default\HeaderPartial.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Default\NavbarPartial.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureList\Default.cshtml.g.cs

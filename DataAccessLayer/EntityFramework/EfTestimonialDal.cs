@@ -8,7 +8,7 @@ using DataAccessLayer.Repository;
 using EntityLayer.Concrete;
 namespace DataAccessLayer.EntityFramework
 {
-    internal class EfTestimonialDal:GenericRepository<Testimonial>, ITestimonialDal
+    public class EfTestimonialDal:GenericRepository<Testimonial>, ITestimonialDal
     {
     }
 }

@@ -11,8 +11,10 @@ namespace DataAccessLayer.Concrete
 {
     public class Context:DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            optionsBuilder.UseSqlServer("server=185.210.94.60\\sql.athena.domainhizmetleri.com,1433; database=devrimme_CoreProjeDb; user=devrimme_CoreProjeDbUser; password=7$2R4wve");
+
         }
 
         public DbSet<About> Abouts { get; set; }
