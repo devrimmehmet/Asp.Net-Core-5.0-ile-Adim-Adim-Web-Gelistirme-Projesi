@@ -153,3 +153,5 @@ C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Default\HeaderPartial.cshtml.g.cs
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Default\NavbarPartial.cshtml.g.cs
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Shared\Components\FeatureList\Default.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Shared\Components\AboutList\Default.cshtml.g.cs
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Debug\net5.0\Razor\Views\Shared\Components\ServiceList\Default.cshtml.g.cs

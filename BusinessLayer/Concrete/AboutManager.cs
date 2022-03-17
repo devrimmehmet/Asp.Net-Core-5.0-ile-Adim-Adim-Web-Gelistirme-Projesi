@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    internal class AboutManager : IAboutService
+    public class AboutManager : IAboutService
     {
         IAboutDal _aboutDal;
 
