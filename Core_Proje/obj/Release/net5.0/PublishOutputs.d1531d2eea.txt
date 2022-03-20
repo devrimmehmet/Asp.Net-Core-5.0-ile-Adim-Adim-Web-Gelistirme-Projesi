@@ -98,6 +98,7 @@ C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubT
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\marker.svg
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\portfolio\1-small.png
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\portfolio\1.jpg
+C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\portfolio\1000.png
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\portfolio\2-small.png
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\portfolio\2.jpg
 C:\Users\devrimmehmet\source\repos\Core_Proje\Core_Proje\obj\Release\net5.0\PubTmp\Out\wwwroot\Template\images\portfolio\3-small.png
