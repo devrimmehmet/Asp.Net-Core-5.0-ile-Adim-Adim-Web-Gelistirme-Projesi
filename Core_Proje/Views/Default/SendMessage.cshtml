@@ -1,6 +1,9 @@
-﻿<div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+﻿@*@using EntityLayer.Concrete
+@model List<Testimonial>*@
+
+<div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
                             <div class="bg-light my-2 p-3 pt-2">
-                                <form  method="post">
+                                <form action="/Default/SendMessage/" method="post">
                                     <div class="form-group my-2">
                                         <label for="name" class="form-label fw-bolder">Adınız</label>
                                         <input class="form-control" type="text" id="name" name="Name" required>
