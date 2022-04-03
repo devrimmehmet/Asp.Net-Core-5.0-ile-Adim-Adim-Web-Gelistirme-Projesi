@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "onAhUjvMHMVGIcOfJtuXUVL3DDUDHyY1YdtlHpq4mrKpjhQZgaeX2B1+tqZXSU8cEcPsh3oIoPEhcHZZqrc3YA==",
+  "dgSpecHash": "bROGRyd7tlkeh+rpf8reWU1M3X9taDmIivhvbKQPCb/oYoUvbrqwJaMCWT+BcNwqY3Pk1hOUg9+8+bo5Eg4vVA==",
   "success": true,
-  "projectFilePath": "C:\\DMP\\Core-Projem\\Core_Proje\\Core_Proje.csproj",
+  "projectFilePath": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devrimmehmet\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\devrimmehmet\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",

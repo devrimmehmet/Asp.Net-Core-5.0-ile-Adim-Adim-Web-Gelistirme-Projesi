@@ -6642,11 +6642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
-      "outputPath": "C:\\DMP\\Core-Projem\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6667,8 +6667,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj"
+            "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

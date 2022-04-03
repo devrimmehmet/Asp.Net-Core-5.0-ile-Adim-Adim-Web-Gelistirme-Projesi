@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DMP\\Core-Projem\\Core_Proje\\Core_Proje.csproj": {}
+    "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj": {}
   },
   "projects": {
-    "C:\\DMP\\Core-Projem\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DMP\\Core-Projem\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\DMP\\Core-Projem\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
-        "outputPath": "C:\\DMP\\Core-Projem\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj"
+              "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\DMP\\Core-Projem\\Core_Proje\\Core_Proje.csproj": {
+    "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DMP\\Core-Projem\\Core_Proje\\Core_Proje.csproj",
+        "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj",
         "projectName": "Core_Proje",
-        "projectPath": "C:\\DMP\\Core-Projem\\Core_Proje\\Core_Proje.csproj",
+        "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj",
         "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
-        "outputPath": "C:\\DMP\\Core-Projem\\Core_Proje\\obj\\",
+        "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -123,14 +123,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DMP\\Core-Projem\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\DMP\\Core-Projem\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj"
+              "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\DMP\\Core-Projem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
-        "outputPath": "C:\\DMP\\Core-Projem\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -232,8 +232,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj"
+              "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -296,14 +296,14 @@
         }
       }
     },
-    "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\DMP\\Core-Projem\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
-        "outputPath": "C:\\DMP\\Core-Projem\\EntityLayer\\obj\\",
+        "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
