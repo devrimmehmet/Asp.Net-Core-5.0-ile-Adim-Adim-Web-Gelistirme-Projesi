@@ -9,7 +9,7 @@ namespace Core_Proje.ViewComponents.Service
         ServiceManager serviceManager = new ServiceManager(new EfServiceDal());
         public IViewComponentResult Invoke()
         {
-            var values = serviceManager.TGetList();
+            var values = serviceManager.GetList();
             return View(values);
         }
     }

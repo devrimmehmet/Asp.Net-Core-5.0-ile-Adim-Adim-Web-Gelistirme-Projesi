@@ -6,15 +6,15 @@ using System.Text;
 using System.Threading.Tasks;
 using EntityLayer.Concrete;
 using EntityLayer;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete
 {
-    public class Context:DbContext
+    public class Context : IdentityDbContext<WriterUser, WriterRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=185.210.94.60\\sql.athena.domainhizmetleri.com,1433; database=devrimme_CoreProjeDb; user=devrimme_CoreProjeDbUser; password=7$2R4wve");
-
+            optionsBuilder.UseSqlServer("server=DEVRIMMEHMET; database=CoreProjeDB; integrated security=true");
         }
 
         public DbSet<About> Abouts { get; set; }
@@ -36,6 +36,14 @@ namespace DataAccessLayer.Concrete
         public DbSet<SocialMedia> SocialMedias { get; set; }
 
         public DbSet<Testimonial> Testimonials { get; set; }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserMessage> UserMessages { get; set; }
+
+        public DbSet<ToDoList> ToDoLists { get; set; }
+
+        public DbSet<Announcement> Announcements { get; set; }
+
 
 
     }

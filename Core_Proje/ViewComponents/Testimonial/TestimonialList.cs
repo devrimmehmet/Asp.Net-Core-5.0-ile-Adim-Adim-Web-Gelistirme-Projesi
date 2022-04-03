@@ -10,7 +10,7 @@ namespace Core_Proje.ViewComponents.Testimonial
 
         public IViewComponentResult Invoke()
         {
-            var values = testimonialManager.TGetList();
+            var values = testimonialManager.GetList();
             return View(values);    
         }
 

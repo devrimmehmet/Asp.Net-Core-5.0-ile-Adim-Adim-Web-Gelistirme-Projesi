@@ -34,7 +34,7 @@ namespace BusinessLayer.Concrete
             return _featureDal.GetByID(id);
         }
 
-        public List<Feature> TGetList()
+        public List<Feature> GetList()
         {
             return _featureDal.GetList();
         }

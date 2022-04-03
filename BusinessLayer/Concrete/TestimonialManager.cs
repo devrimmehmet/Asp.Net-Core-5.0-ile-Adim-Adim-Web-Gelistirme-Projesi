@@ -33,7 +33,7 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Testimonial> TGetList()
+        public List<Testimonial> GetList()
         {
             return _testimonialDal.GetList();
         }

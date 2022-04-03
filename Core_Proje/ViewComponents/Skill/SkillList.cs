@@ -11,7 +11,7 @@ namespace Core_Proje.ViewComponents.Skill
         SkillManager skillManager = new SkillManager(new EfSkillDal());
         public IViewComponentResult Invoke()
         {
-            var values = skillManager.TGetList();
+            var values = skillManager.GetList();
             return View(values);
         }
     }

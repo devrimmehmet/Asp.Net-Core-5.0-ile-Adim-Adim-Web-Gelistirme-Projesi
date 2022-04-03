@@ -33,7 +33,7 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Contact> TGetList()
+        public List<Contact> GetList()
         {
             return _contactDal.GetList();
         }

@@ -14,7 +14,7 @@ namespace Core_Proje.ViewComponents.About
         AboutManager aboutManager = new AboutManager(new EfAboutDal());
         public IViewComponentResult Invoke()
         {
-            var values = aboutManager.TGetList();
+            var values = aboutManager.GetList();
             return View(values);
         }
     }

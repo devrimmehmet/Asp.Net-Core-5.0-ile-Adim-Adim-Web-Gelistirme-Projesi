@@ -33,7 +33,7 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Message> TGetList()
+        public List<Message> GetList()
         {
             throw new NotImplementedException();
         }

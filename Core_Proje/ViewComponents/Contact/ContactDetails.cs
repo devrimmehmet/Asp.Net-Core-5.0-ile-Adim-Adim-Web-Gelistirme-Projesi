@@ -9,7 +9,7 @@ namespace Core_Proje.ViewComponents.Contact
         ContactManager contactManager = new ContactManager(new EfContactDal());
         public IViewComponentResult Invoke()
         {
-            var values = contactManager.TGetList();
+            var values = contactManager.GetList();
             return View(values);
         }
     }

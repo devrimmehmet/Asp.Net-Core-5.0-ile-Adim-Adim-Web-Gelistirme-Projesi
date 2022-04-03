@@ -35,7 +35,7 @@ namespace BusinessLayer.Concrete
             return _aboutDal.GetByID(id);
         }
 
-        public List<About> TGetList()
+        public List<About> GetList()
         {
            return _aboutDal.GetList();
         }

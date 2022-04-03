@@ -9,7 +9,7 @@ namespace Core_Proje.ViewComponents.Experience
         ExperienceManager experienceManager = new ExperienceManager(new EfExperienceDal());
         public IViewComponentResult Invoke() 
         {
-            var values = experienceManager.TGetList();
+            var values = experienceManager.GetList();
             return View(values);
         }
     }

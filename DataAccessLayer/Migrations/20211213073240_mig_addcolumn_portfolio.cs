@@ -17,8 +17,6 @@ namespace DataAccessLayer.Migrations
                 table: "Portfolios",
                 type: "nvarchar(max)",
                 nullable: true);
-
-            
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

@@ -1,0 +1,59 @@
+﻿@using EntityLayer.Concrete
+@model List<Announcement>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+@{
+    string color = "";
+}
+<div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Duyurular</h4>
+                  <p class="card-description">
+                     
+                  </p>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Başlık</th>
+                          <th>Tarih</th>
+                          <th>Tür</th>
+                          <th>Detaylar</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          @foreach(var item in Model){
+                            if(item.Status=="Yeni Yazı")
+                            {
+                                color = "badge badge-danger";
+                            }
+                             if(item.Status=="Yeni Video")
+                            {
+                                color = "badge badge-warning";
+                            }
+                             if(item.Status=="Yeni Proje")
+                            {
+                                color = "badge badge-info";
+                            }
+                             if(item.Status=="Yeni Bootcamp")
+                            {
+                                color = "badge badge-primary";
+                            }
+                            <tr>
+                          <th>@item.ID</th>
+                          <td>@item.Title</td>
+                          <td>@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
+                          <td><label class="@color">@item.Status</label></td>
+                          <td><a href="/Writer/Default/AnnouncementDetails/@item.ID" class="btn btn-outline-primary">Detaylar</a></td>
+                        </tr>}
+                     
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
