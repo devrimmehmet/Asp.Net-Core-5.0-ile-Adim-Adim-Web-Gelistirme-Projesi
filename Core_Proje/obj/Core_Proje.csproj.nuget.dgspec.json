@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
         "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\DevrimMehmet\\.nuget\\packages\\",
         "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\devrimmehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DevrimMehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,14 +101,14 @@
         "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj",
         "projectName": "Core_Proje",
         "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\Core_Proje.csproj",
-        "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\DevrimMehmet\\.nuget\\packages\\",
         "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\Core_Proje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\devrimmehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DevrimMehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -210,14 +210,14 @@
         "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
         "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\DevrimMehmet\\.nuget\\packages\\",
         "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\devrimmehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DevrimMehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -302,14 +302,14 @@
         "projectUniqueName": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
         "projectPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\devrimmehmet\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\DevrimMehmet\\.nuget\\packages\\",
         "outputPath": "C:\\DMP\\Core-Proje-Portfolyo\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\devrimmehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DevrimMehmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

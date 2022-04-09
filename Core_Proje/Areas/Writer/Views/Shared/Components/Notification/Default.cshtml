@@ -1,0 +1,59 @@
+﻿@using EntityLayer.Concrete
+@model List<Announcement>
+@{string color = " ";}
+
+<div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+              <p class="mb-0 font-weight-normal float-left dropdown-header">Bildirimler</p>
+             
+             @foreach(var item in Model) {
+                            if(item.Status=="Yeni Video")
+                            {
+                                color = "preview-icon bg-success";
+                            }
+                           
+                            if(item.Status=="Yeni Yazı")
+                            {
+                                color = "preview-icon bg-info";
+                            }
+                           
+              <a class="dropdown-item preview-item" href="~/Writer/Default/AnnouncementDetails/@item.ID">
+                <div class="preview-thumbnail">
+                  <div class="@color">
+                    <i class="ti-info-alt mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">@item.Title</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    @item.Status
+                  </p>
+                </div>
+              </a>
+              }
+           @*   <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-warning">
+                    <i class="ti-settings mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">Settings</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    Private message
+                  </p>
+                </div>
+              </a>
+              <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                  <div class="preview-icon bg-info">
+                    <i class="ti-user mx-0"></i>
+                  </div>
+                </div>
+                <div class="preview-item-content">
+                  <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">
+                    2 days ago
+                  </p>
+                </div>
+              </a>*@
+            </div>

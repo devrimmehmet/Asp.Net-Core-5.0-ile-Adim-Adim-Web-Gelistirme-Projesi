@@ -14,6 +14,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+
             optionsBuilder.UseSqlServer("server=DEVRIMMEHMET; database=CoreProjeDB; integrated security=true");
         }
 

@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Core_Proje",
+    "\\Core_Proje\\Areas",
+    "\\Core_Proje\\Areas\\Writer",
+    "\\Core_Proje\\Areas\\Writer\\Views",
+    "\\Core_Proje\\Areas\\Writer\\Views\\Profile"
   ],
-  "SelectedNode": "\\C:\\DMP\\Core-Proje-Portfolyo",
+  "SelectedNode": "\\Core_Proje\\Areas\\Writer\\Views\\Profile\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
