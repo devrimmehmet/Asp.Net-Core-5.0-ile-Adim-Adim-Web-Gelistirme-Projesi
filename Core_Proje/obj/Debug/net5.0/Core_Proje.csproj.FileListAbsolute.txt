@@ -768,6 +768,10 @@ C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Core_Proje.pdb
 C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Core_Proje.genruntimeconfig.cache
 C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\ref\Core_Proje.dll
 C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Dashboard\Index.cshtml.g.cs
-C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Message\Index.cshtml.g.cs
 C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Shared\Components\Notification\Default.cshtml.g.cs
 C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Shared\Components\Navbar\Default.cshtml.g.cs
+C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Message\ReceiverMessage.cshtml.g.cs
+C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Message\SenderMessage.cshtml.g.cs
+C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Message\MessageDetails.cshtml.g.cs
+C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Message\ReceiverMessageDetails.cshtml.g.cs
+C:\DMP\Core-Proje-Portfolyo\Core_Proje\obj\Debug\net5.0\Razor\Areas\Writer\Views\Message\SendMessage.cshtml.g.cs

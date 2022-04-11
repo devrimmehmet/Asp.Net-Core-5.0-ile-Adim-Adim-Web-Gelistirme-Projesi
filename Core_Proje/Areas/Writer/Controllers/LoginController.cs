@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 namespace Core_Proje.Areas.Writer.Controllers
 {
     [Area("Writer")]
+    [Route("Writer/[controller]/[action]")]
     public class LoginController : Controller
     {
-       
+
         private readonly SignInManager<WriterUser> _signInManager;
 
         public LoginController(SignInManager<WriterUser> signInManager)
@@ -27,16 +28,21 @@ namespace Core_Proje.Areas.Writer.Controllers
             if (ModelState.IsValid)
             {
                 var result = await _signInManager.PasswordSignInAsync(p.Username, p.Password, true, true);
-                if (result.Succeeded) 
+                if (result.Succeeded)
                 {
-                    return RedirectToAction("Index","Default");
+                    return RedirectToAction("Index", "Profile", new { area = "Writer" });
                 }
-                else 
+                else
                 {
-                    ModelState.AddModelError("","Hatalı Kullanıcı Adı veya Şifre");
+                    ModelState.AddModelError("", "Hatalı Kullanıcı Adı veya Şifre");
                 }
             }
             return View();
+        }
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index","Login ");
         }
     }
 }

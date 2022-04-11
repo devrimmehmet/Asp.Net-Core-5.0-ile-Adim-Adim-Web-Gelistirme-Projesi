@@ -47,5 +47,10 @@ namespace BusinessLayer.Concrete
         {
             _portfolioDal.Update(t);
         }
+
+        public List<Portfolio> TGetListbyFilter()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

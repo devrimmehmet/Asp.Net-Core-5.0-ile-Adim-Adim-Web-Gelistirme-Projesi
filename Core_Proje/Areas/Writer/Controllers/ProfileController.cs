@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace Core_Proje.Areas.Writer.Controllers
 {
     [Area("Writer")]
+    [Route("Writer/[controller]/[action]")]
     public class ProfileController : Controller
     {
         private readonly UserManager<WriterUser> _userManager;
@@ -43,10 +44,11 @@ namespace Core_Proje.Areas.Writer.Controllers
             }
             user.Name = p.Name;
             user.Surname = p.Surname;
+            user.PasswordHash = _userManager.PasswordHasher.HashPassword(user,p.Password);
             var result = await _userManager.UpdateAsync(user);
             if (result.Succeeded)
             {
-                RedirectToAction("Index", "Default");
+                RedirectToAction("Index", "Login");
             }
             return View();
         }
