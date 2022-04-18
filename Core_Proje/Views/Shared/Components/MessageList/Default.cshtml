@@ -1,14 +1,14 @@
 ﻿@using EntityLayer.Concrete
-
+@model List<Message>
 
 <div class="col-md-6 col-xl-4 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex flex-row justify-content-between">
                       <h4 class="card-title">Mesajlar</h4>
-                      <p class="text-muted mb-1 small">Tümünü Görüntüle</p>
+                      <p class="text-muted mb-1 small"><a href="/contact/Index/"> Tümünü Görüntüle</a></p>
                     </div>
-                    @*@foreach (var item in Model)
+                    @foreach (var item in Model)
                     {
                     <div class="preview-list">
                       <div class="preview-item border-bottom">
@@ -18,15 +18,15 @@
                         <div class="preview-item-content d-flex flex-grow">
                           <div class="flex-grow">
                             <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                              <h6 class="preview-subject"></h6>
-                              <p class="text-muted text-small">5 minutes ago</p>
+                              <h6 class="preview-subject">@item.Name</h6>
+                              <p class="text-muted text-small">@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</p>
                             </div>
-                            <p class="text-muted">Well, it seems to be working now.</p>
+                            <p class="text-muted">@item.Content.Substring(0,10)...</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    }*@
+                    }
                   </div>
                 </div>
               </div>

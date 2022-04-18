@@ -23,7 +23,7 @@ namespace Core_Proje.Areas.Writer.Controllers
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.v = values.Name + " " + values.Surname;
             //weather api
-            string api = "00000000000000000000000000apikey";
+            string api = "f7065dba0e509402548a7e14015c7935";
             string connection = "https://api.openweathermap.org/data/2.5/weather?q=kastamonu&mode=xml&lang=tr&units=metric&appid=" + api;
             XDocument document=XDocument.Load(connection);
             ViewBag.v5 = document.Descendants("temperature").ElementAt(0).Attribute("value").Value;

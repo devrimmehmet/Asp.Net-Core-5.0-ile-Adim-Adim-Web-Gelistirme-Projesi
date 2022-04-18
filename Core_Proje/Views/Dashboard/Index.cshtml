@@ -11,7 +11,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Corona Admin</title>
-    <!-- plugins:css -->
     <link rel="stylesheet" href="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
@@ -20,6 +19,7 @@
     <link rel="stylesheet" href="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/owl-carousel-2/owl.carousel.min.css">
     <link rel="stylesheet" href="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -65,19 +65,19 @@
 
 
 
-@*             @await Component.InvokeAsync("MessageList")
-*@
+             @await Component.InvokeAsync("MessageList")
+
            @await Component.InvokeAsync("SlideList")
 
            
             @await Component.InvokeAsync("ToDoListPanel")
             </div>
-           @await Component.InvokeAsync("VisitorMap")
-      
+          @* @await Component.InvokeAsync("VisitorMap")*@
+      <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/js/vendor.bundle.base.js"></script>
         <!-- main-panel ends -->
       
       <!-- page-body-wrapper ends -->
-    <!-- container-scroller -->
+  @*  <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
@@ -97,6 +97,6 @@
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/js/dashboard.js"></script>
-    <!-- End custom js for this page -->
+    <!-- End custom js for this page -->*@
   </body>
 </html>

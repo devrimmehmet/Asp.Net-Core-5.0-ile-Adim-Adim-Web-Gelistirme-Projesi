@@ -1,0 +1,41 @@
+﻿@model EntityLayer.Concrete.SocialMedia
+@{
+    ViewData["Title"] = "EditSocialMedia";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+
+
+@using(Html.BeginForm("EditSocialMedia","SocialMedia",FormMethod.Post))
+{  
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Hesap Düzenleme Paneli </p>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Başlık</label>
+                       @Html.TextBoxFor(x=>x.SocialMediaID, new {@class="form-control"})
+                    </div>
+                    <div class="form-group">
+                        <label>İsim</label>
+                        @Html.TextBoxFor(x=>x.Name, new {@class="form-control"})
+                    </div>
+                    <div class="form-group">
+                        <label>URL</label>
+                        @Html.TextBoxFor(x=>x.Url, new {@class="form-control"})
+                    </div>
+                    <div class="form-group">
+                        <label >İkon</label>
+                        @Html.TextBoxFor(x=>x.Icon, new {@class="form-control"})
+                    </div> 
+              
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button class="btn btn-dark">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+

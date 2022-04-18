@@ -1,0 +1,39 @@
+﻿@model EntityLayer.Concrete.Testimonial
+
+@{
+    ViewData["Title"] = "AddTestimonial";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+<form asp-action="AddTestimonial">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Yeni Referans Ekleme Paneli </p>
+                
+                    <div class="form-group">
+                        <label>Ad Soyad</label>
+                        <input type="text" class="form-control" asp-for="@Model.ClientName">
+                    </div>
+                    <div class="form-group">
+                        <label>Şirket</label>
+                        <input type="text" class="form-control"  asp-for="@Model.Company">
+                    </div>
+                    <div class="form-group">
+                        <label >Görsel URL</label>
+                        <input type="text" class="form-control"  asp-for="@Model.ImageUrl">
+                    </div> 
+                     <div class="form-group">
+                        <label >Ünvan</label>
+                        <input type="text" class="form-control"  asp-for="@Model.Title">
+                    </div> 
+                    <div class="form-group">
+                        <label>Yorum</label>
+                        <textarea class="form-control"  asp-for="@Model.Comment" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button class="btn btn-dark">İptal</button>
+                
+            </div>
+        </div>
+    </div>
+    </form>

@@ -33,8 +33,10 @@ namespace Core_Proje.Areas.Writer.Controllers
         }
         [Route("")]
         [Route("SenderMessage")]
+
         public async Task<IActionResult> SenderMessage(string p)
         {
+
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
             p = values.Email;
             var messageList = writerMessageManager.GetListSenderMessage(p);

@@ -1,0 +1,11 @@
+﻿@using EntityLayer.Concrete
+@model List<SocialMedia>
+ <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+              <nav role="navigation">
+                <ul class="nav justify-content-left">
+                    @foreach(var item in Model) {
+                  <li class="nav-item"><a class="nav-link" href="@item.Url" title="@item.Name"><i class="@item.Icon"></i><span class="menu-title sr-only">@item.Name</span></a></li>
+                    }
+                    </ul>
+              </nav>
+            </div>

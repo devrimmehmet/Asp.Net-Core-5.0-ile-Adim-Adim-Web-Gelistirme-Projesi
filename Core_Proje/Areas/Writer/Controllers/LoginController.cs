@@ -3,9 +3,11 @@ using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Core_Proje.Areas.Writer.Controllers
 {
+    [AllowAnonymous]
     [Area("Writer")]
     [Route("Writer/[controller]/[action]")]
     public class LoginController : Controller
@@ -42,7 +44,7 @@ namespace Core_Proje.Areas.Writer.Controllers
         public async Task<IActionResult> LogOut()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Index","Login ");
+            return RedirectToAction("Index", "Login", new { area = "Writer" });
         }
     }
 }

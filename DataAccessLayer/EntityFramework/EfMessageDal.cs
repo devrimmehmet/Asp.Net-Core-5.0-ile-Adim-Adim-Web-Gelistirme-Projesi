@@ -9,7 +9,7 @@ using EntityLayer.Concrete;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfMessageDal:GenericRepository<Message>,IMessageDal
+    public class EfMessageDal : GenericRepository<Message>, IMessageDal
     {
 
     }

@@ -16,6 +16,7 @@ namespace DataAccessLayer.Concrete
         {
 
             optionsBuilder.UseSqlServer("server=DEVRIMMEHMET; database=CoreProjeDB; integrated security=true");
+
         }
 
         public DbSet<About> Abouts { get; set; }
